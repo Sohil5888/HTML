@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Form Fill Up</legend>
+        <form action="Form.html" method="post">
+            <table>
+            <tr>
+                <td><label for="username">username</label></td>
+                <td><input type="text"  id="username" required placeholder="enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="password">password</label></td>
+                <td><input type="password" id="password" required placeholder="enter your password"></td>
+            </tr>
+            <tr>
+                <td><label for="phone number">phone number</label></td>
+                <td><input type="tel" id="phone number" required placeholder="enter your phone number"></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">mobile</label></td>
+                <td><input type="tel" id="mobile" required placeholder="enter your mobile number"></td>
+            </tr>
+            <tr>
+                <td><label for="E-mail">E-mail</label></td>
+                <td><input type="email" id="E-mail" required placeholder="enter your E-mail"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">gender</label></td>
+                <td>
+                <input type="radio" id="" name="gender">Male
+                <input type="radio" id="" name="gender">Female
+                <input type="radio" id="" name="gender">Other</td>
+            </tr>
+            <tr>
+                <td><label for="hobbies">hobbies</label></td>
+                <td><input type="checkbox" id="hobbies" disabled>Swimming
+                    <input type="checkbox" id="hobbies" disabled>Cricket
+                    <input type="checkbox" id="hobbies" checked>Football
+                    <input type="checkbox" id="hobbies">Tennis
+                    <input type="checkbox" id="hobbies">Travelling
+                    <input type="checkbox" id="hobbies" checked>Reading</td>
+            </tr>
+            <tr>
+                <td><label for="Reviews">Reviews</label></td>
+                <td><textarea id="Reviews" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="DOB">DOB</label></td>
+                <td><input type="date" id="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="Date & Time">Date & Time</label></td>
+                <td><input type="datetime-local" id="Date & Time"></td>
+            </tr>
+            <tr>
+                <td><label for="Upload Your Pic">Upload Your Pic</label></td>
+                <td><input type="file" id="Upload Your Pic" accept="image"></td>
+            </tr>
+            <tr>
+                <td><label for="Resume">Resume</label></td>
+                <td><input type="file" name="" id="Resume"></td>
+            </tr>
+            <tr>
+                <td><label for="Colour">Colour</label></td>
+                <td><input type="color" name="" id="Colour"></td>
+            </tr>
+            <tr>
+                <td><label for="Read More">Read More</label></td>
+                <td><input type="button" value="readmore" id="Read More"></td>
+            </tr>
+            <tr>
+                <td><label for="City">City</label></td>
+                <td>
+                    <select>
+                        <option value="None">None</option>
+                        <option value="Rajkot">Rajkot</option>
+                        <option value="Jamnagar">Jamnagar</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Morbi">Morbi</option>
+                        <option value="Halvad">Halvad</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Edu">Edu</label></td>
+                <td>
+                    <select id="Edu" multiple>
+                        <option value="10th">10th</option>
+                        <option value="12th">12th</option>
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="M.Tech">M.Tech</option>
+                        <option value="Ph.D">Ph.D</option>
+                        <option value="Doctor">Doctor</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Range">Range</label></td>
+                <td>0<input type="range" name="" id="Range" value="25">100</td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Reset"></td>
+                <td><input type="submit" value="Save Data"></td>
+            </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
